@@ -1,0 +1,12 @@
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\ENTITY\bin\Debug\net8.0-windows\ENTITY.deps.json
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\ENTITY\bin\Debug\net8.0-windows\ENTITY.dll
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\ENTITY\bin\Debug\net8.0-windows\ENTITY.pdb
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\ENTITY\obj\Debug\net8.0-windows\ENTITY.csproj.AssemblyReference.cache
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\ENTITY\obj\Debug\net8.0-windows\ENTITY.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\ENTITY\obj\Debug\net8.0-windows\ENTITY.AssemblyInfoInputs.cache
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\ENTITY\obj\Debug\net8.0-windows\ENTITY.AssemblyInfo.cs
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\ENTITY\obj\Debug\net8.0-windows\ENTITY.csproj.CoreCompileInputs.cache
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\ENTITY\obj\Debug\net8.0-windows\ENTITY.dll
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\ENTITY\obj\Debug\net8.0-windows\refint\ENTITY.dll
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\ENTITY\obj\Debug\net8.0-windows\ENTITY.pdb
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\ENTITY\obj\Debug\net8.0-windows\ref\ENTITY.dll

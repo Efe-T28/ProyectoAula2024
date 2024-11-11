@@ -1,0 +1,17 @@
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\bin\Debug\net8.0-windows\BLL.deps.json
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\bin\Debug\net8.0-windows\BLL.dll
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\bin\Debug\net8.0-windows\BLL.pdb
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\bin\Debug\net8.0-windows\DAL.dll
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\bin\Debug\net8.0-windows\ENTITY.dll
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\bin\Debug\net8.0-windows\DAL.pdb
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\bin\Debug\net8.0-windows\ENTITY.pdb
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\obj\Debug\net8.0-windows\BLL.csproj.AssemblyReference.cache
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\obj\Debug\net8.0-windows\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\obj\Debug\net8.0-windows\BLL.AssemblyInfoInputs.cache
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\obj\Debug\net8.0-windows\BLL.AssemblyInfo.cs
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\obj\Debug\net8.0-windows\BLL.csproj.CoreCompileInputs.cache
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\obj\Debug\net8.0-windows\BLL.csproj.Up2Date
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\obj\Debug\net8.0-windows\BLL.dll
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\obj\Debug\net8.0-windows\refint\BLL.dll
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\obj\Debug\net8.0-windows\BLL.pdb
+C:\ProyectoAula2024WPF(1)\SistemaDeAlarmas\BLL\obj\Debug\net8.0-windows\ref\BLL.dll

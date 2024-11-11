@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78B5DDF5-1D9E-4E9F-A7B7-DCEF877C1E75}|ENTITY\\ENTITY.csproj|C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\entity\\alerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78B5DDF5-1D9E-4E9F-A7B7-DCEF877C1E75}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\alerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43E5930C-9207-4D24-8EB9-B4117391E1D4}|DAL\\DAL.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\dal\\alertarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E5930C-9207-4D24-8EB9-B4117391E1D4}|DAL\\DAL.csproj|solutionrelative:dal\\alertarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AB21B05-E5D1-4BA1-8921-563FF03CCD8A}|BLL\\BLL.csproj|C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AB21B05-E5D1-4BA1-8921-563FF03CCD8A}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AB21B05-E5D1-4BA1-8921-563FF03CCD8A}|BLL\\BLL.csproj|C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\bll\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AB21B05-E5D1-4BA1-8921-563FF03CCD8A}|BLL\\BLL.csproj|solutionrelative:bll\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78B5DDF5-1D9E-4E9F-A7B7-DCEF877C1E75}|ENTITY\\ENTITY.csproj|C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\entity\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +19,8 @@
       "RelativeMoniker": "D:0:0:{78B5DDF5-1D9E-4E9F-A7B7-DCEF877C1E75}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\coordenada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36A2CBEC-7588-4015-A9AD-9E5B1C9E9B3C}|PRESENTATION\\PRESENTATION.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\presentation\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A2CBEC-7588-4015-A9AD-9E5B1C9E9B3C}|PRESENTATION\\PRESENTATION.csproj|solutionrelative:presentation\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43E5930C-9207-4D24-8EB9-B4117391E1D4}|DAL\\DAL.csproj|C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43E5930C-9207-4D24-8EB9-B4117391E1D4}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78B5DDF5-1D9E-4E9F-A7B7-DCEF877C1E75}|ENTITY\\ENTITY.csproj|C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\entity\\alerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B5DDF5-1D9E-4E9F-A7B7-DCEF877C1E75}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\alerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,45 +30,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\PRESENTATION\\Class1.cs",
-              "RelativeDocumentMoniker": "PRESENTATION\\Class1.cs",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\PRESENTATION\\Class1.cs",
-              "RelativeToolTip": "PRESENTATION\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T02:50:00.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\BLL\\Class1.cs",
-              "RelativeDocumentMoniker": "BLL\\Class1.cs",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\BLL\\Class1.cs",
-              "RelativeToolTip": "BLL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AlertaService.cs",
+              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\BLL\\AlertaService.cs",
+              "RelativeDocumentMoniker": "BLL\\AlertaService.cs",
+              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\BLL\\AlertaService.cs",
+              "RelativeToolTip": "BLL\\AlertaService.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowGIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T02:49:35.838Z",
+              "WhenOpened": "2024-11-04T13:04:25.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\DAL\\Class1.cs",
-              "RelativeDocumentMoniker": "DAL\\Class1.cs",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\DAL\\Class1.cs",
-              "RelativeToolTip": "DAL\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "AlertaRepository.cs",
+              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\DAL\\AlertaRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\AlertaRepository.cs",
+              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\DAL\\AlertaRepository.cs",
+              "RelativeToolTip": "DAL\\AlertaRepository.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAkwG4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T02:49:21.399Z"
+              "WhenOpened": "2024-11-04T13:02:54.247Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -82,20 +66,20 @@
               "RelativeDocumentMoniker": "ENTITY\\Coordenada.cs",
               "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ENTITY\\Coordenada.cs",
               "RelativeToolTip": "ENTITY\\Coordenada.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T18:09:09.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Alerta.cs",
               "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ENTITY\\Alerta.cs",
               "RelativeDocumentMoniker": "ENTITY\\Alerta.cs",
               "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ENTITY\\Alerta.cs",
               "RelativeToolTip": "ENTITY\\Alerta.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAADwvysAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T18:07:58.682Z",
               "EditorCaption": ""
@@ -108,7 +92,7 @@
               "RelativeDocumentMoniker": "ENTITY\\Usuario.cs",
               "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ENTITY\\Usuario.cs",
               "RelativeToolTip": "ENTITY\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T18:06:54.745Z",
               "EditorCaption": ""
