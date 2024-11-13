@@ -7,11 +7,17 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ConsultarAlertas.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="InicioDeSesion.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="ConsultarAlertas.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="InicioDeSesion.xaml">
       <SubType>Designer</SubType>
     </Page>

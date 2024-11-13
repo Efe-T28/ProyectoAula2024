@@ -19,6 +19,14 @@ namespace ProyectoAula
         public MainWindow()
         {
             InitializeComponent();
+            btnConsultar.Click += BtnConsultar_Click;
+        }
+
+        private void BtnConsultar_Click(object sender, RoutedEventArgs e)
+        {            
+            ConsultarAlertas consultarAlertas = new ConsultarAlertas();
+
+            this.Content = consultarAlertas;
         }
     }
 }
