@@ -74,3 +74,5 @@ C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\net8.0-wind
 C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\net8.0-windows\ConsultarAlertas.g.cs
 C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\net8.0-windows\ProyectoAula_MarkupCompile.lref
 C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\net8.0-windows\ConsultarAlertas.baml
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\net8.0-windows\CerrarSesionDialogo.baml
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\net8.0-windows\CerrarSesionDialogo.g.cs

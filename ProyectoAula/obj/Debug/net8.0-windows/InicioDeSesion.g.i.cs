@@ -84,7 +84,7 @@ namespace ProyectoAula {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ProyectoAula;component/iniciodesesion.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ProyectoAula;V1.0.0.0;component/iniciodesesion.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\InicioDeSesion.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -20,6 +20,7 @@ namespace ProyectoAula
         {
             InitializeComponent();
             btnConsultar.Click += BtnConsultar_Click;
+
         }
 
         private void BtnConsultar_Click(object sender, RoutedEventArgs e)
@@ -28,5 +29,33 @@ namespace ProyectoAula
 
             this.Content = consultarAlertas;
         }
+
+
+        private void BtnCerrarSesion_Click(object sender, RoutedEventArgs e)
+        {
+            var dialog = new CerrarSesionDialogo
+            {
+                Owner = this
+            };
+            dialog.ShowDialog();
+
+            if (dialog.CerrarSesion)
+            {
+                
+                InicioDeSesion inicioDeSesion = new InicioDeSesion();
+                Window loginWindow = new Window
+                {
+                    Content = inicioDeSesion,
+                    Width = 800,
+                    Height = 450,
+                    Title = "Inicio de Sesión",
+                    WindowStartupLocation = WindowStartupLocation.CenterScreen
+                };
+                loginWindow.Show();
+                this.Close();
+            }
+            
+        }
+
     }
 }
