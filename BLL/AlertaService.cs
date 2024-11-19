@@ -1,6 +1,11 @@
-
+ï»¿using ENTITY;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using DAL;
-using ENTITY;
+
 
 namespace BLL
 {
@@ -20,13 +25,13 @@ namespace BLL
             {
                 // Validaciones de negocio
                 if (string.IsNullOrWhiteSpace(descripcion))
-                    return "La descripción de la alerta no puede estar vacía";
+                    return "La descripciÃ³n de la alerta no puede estar vacÃ­a";
 
                 if (ubicacion == null)
-                    return "La ubicación es requerida";
+                    return "La ubicaciÃ³n es requerida";
 
                 if (usuarioId <= 0)
-                    return "El ID de usuario no es válido";
+                    return "El ID de usuario no es vÃ¡lido";
 
                 // Crear nueva alerta
                 var alerta = new Alerta(tipo, descripcion, ubicacion, usuarioId);
@@ -36,7 +41,7 @@ namespace BLL
             }
             catch (Exception ex)
             {
-                // Log del error aquí si es necesario
+                // Log del error aquÃ­ si es necesario
                 return $"Error al insertar la alerta: {ex.Message}";
             }
         }
@@ -49,7 +54,7 @@ namespace BLL
             }
             catch (Exception ex)
             {
-                // Log del error aquí si es necesario
+                // Log del error aquÃ­ si es necesario
                 throw new Exception($"Error al obtener las alertas: {ex.Message}", ex);
             }
         }
@@ -94,5 +99,4 @@ namespace BLL
             }
         }
     }
-
 }

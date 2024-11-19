@@ -1,7 +1,11 @@
-using System.Data.SqlClient;
+ï»¿using ENTITY;
 using System;
 using System.Collections.Generic;
-using ENTITY;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 
 namespace DAL
 {
@@ -37,7 +41,7 @@ namespace DAL
                     _connection.Close();
 
                     return filasAfectadas > 0
-                        ? $"Se agregó la alerta correctamente"
+                        ? $"Se agregÃ³ la alerta correctamente"
                         : "No se pudo agregar la alerta";
                 }
             }
@@ -100,12 +104,11 @@ namespace DAL
                 reader.GetInt32(reader.GetOrdinal("UsuarioId"))
             );
 
-            // Establecer el Id después de la creación
+            // Establecer el Id despuÃ©s de la creaciÃ³n
             var id = reader.GetInt32(reader.GetOrdinal("Id"));
             typeof(Alerta).GetProperty("Id").SetValue(alerta, id);
 
             return alerta;
         }
     }
-
 }

@@ -1,0 +1,99 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\proyectoaula\\cerrarsesiondialogo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\cerrarsesiondialogo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\proyectoaula\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\proyectoaula\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\proyectoaula\\cerrarsesiondialogo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\cerrarsesiondialogo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA43FD9-F2B8-4A14-BA19-34D645782A6D}|BLL\\BLL.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\bll\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA43FD9-F2B8-4A14-BA19-34D645782A6D}|BLL\\BLL.csproj|solutionrelative:bll\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CerrarSesionDialogo.xaml.cs",
+              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\CerrarSesionDialogo.xaml.cs",
+              "RelativeDocumentMoniker": "ProyectoAula\\CerrarSesionDialogo.xaml.cs",
+              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\CerrarSesionDialogo.xaml.cs",
+              "RelativeToolTip": "ProyectoAula\\CerrarSesionDialogo.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwB4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T18:29:51.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CerrarSesionDialogo.xaml",
+              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\CerrarSesionDialogo.xaml",
+              "RelativeDocumentMoniker": "ProyectoAula\\CerrarSesionDialogo.xaml",
+              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\CerrarSesionDialogo.xaml",
+              "RelativeToolTip": "ProyectoAula\\CerrarSesionDialogo.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-15T18:28:48.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProyectoAula\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ProyectoAula\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T17:37:03.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ProyectoAula\\MainWindow.xaml",
+              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\MainWindow.xaml",
+              "RelativeToolTip": "ProyectoAula\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-15T17:03:26.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlertaService.cs",
+              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\BLL\\AlertaService.cs",
+              "RelativeDocumentMoniker": "BLL\\AlertaService.cs",
+              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\BLL\\AlertaService.cs",
+              "RelativeToolTip": "BLL\\AlertaService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAuwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T16:46:06.311Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
