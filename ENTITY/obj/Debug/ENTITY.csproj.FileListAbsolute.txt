@@ -1,0 +1,6 @@
+C:\Users\German Ballestero\Desktop\proyectoAula\ENTITY\bin\Debug\ENTITY.dll
+C:\Users\German Ballestero\Desktop\proyectoAula\ENTITY\bin\Debug\ENTITY.pdb
+C:\Users\German Ballestero\Desktop\proyectoAula\ENTITY\obj\Debug\ENTITY.csproj.AssemblyReference.cache
+C:\Users\German Ballestero\Desktop\proyectoAula\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\German Ballestero\Desktop\proyectoAula\ENTITY\obj\Debug\ENTITY.dll
+C:\Users\German Ballestero\Desktop\proyectoAula\ENTITY\obj\Debug\ENTITY.pdb
