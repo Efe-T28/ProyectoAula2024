@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\",
+  "WorkspaceRootPath": "C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43E5930C-9207-4D24-8EB9-B4117391E1D4}|DAL\\DAL.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\dal\\alertarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43E5930C-9207-4D24-8EB9-B4117391E1D4}|DAL\\DAL.csproj|solutionrelative:dal\\alertarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\ProyectoAula\\ProyectoAula.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoAula\\ProyectoAula.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AB21B05-E5D1-4BA1-8921-563FF03CCD8A}|BLL\\BLL.csproj|C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\bll\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AB21B05-E5D1-4BA1-8921-563FF03CCD8A}|BLL\\BLL.csproj|solutionrelative:bll\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\bll\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bll\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78B5DDF5-1D9E-4E9F-A7B7-DCEF877C1E75}|ENTITY\\ENTITY.csproj|C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\entity\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78B5DDF5-1D9E-4E9F-A7B7-DCEF877C1E75}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78B5DDF5-1D9E-4E9F-A7B7-DCEF877C1E75}|ENTITY\\ENTITY.csproj|C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\entity\\coordenada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78B5DDF5-1D9E-4E9F-A7B7-DCEF877C1E75}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\coordenada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78B5DDF5-1D9E-4E9F-A7B7-DCEF877C1E75}|ENTITY\\ENTITY.csproj|C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\entity\\alerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78B5DDF5-1D9E-4E9F-A7B7-DCEF877C1E75}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\alerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\DAL\\AlertaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DAL\\AlertaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +22,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProyectoAula.csproj",
+              "DocumentMoniker": "C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\ProyectoAula\\ProyectoAula.csproj",
+              "RelativeDocumentMoniker": "ProyectoAula\\ProyectoAula.csproj",
+              "ToolTip": "C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\ProyectoAula\\ProyectoAula.csproj",
+              "RelativeToolTip": "ProyectoAula\\ProyectoAula.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-19T14:08:41.607Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AlertaService.cs",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\BLL\\AlertaService.cs",
+              "DocumentMoniker": "C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\BLL\\AlertaService.cs",
               "RelativeDocumentMoniker": "BLL\\AlertaService.cs",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\BLL\\AlertaService.cs",
+              "ToolTip": "C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\BLL\\AlertaService.cs",
               "RelativeToolTip": "BLL\\AlertaService.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAowGIAAAAJAAAAAAAAAA==",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T13:04:25.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AlertaRepository.cs",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\DAL\\AlertaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\DAL\\AlertaRepository.cs",
               "RelativeDocumentMoniker": "DAL\\AlertaRepository.cs",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\DAL\\AlertaRepository.cs",
+              "ToolTip": "C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\DAL\\AlertaRepository.cs",
               "RelativeToolTip": "DAL\\AlertaRepository.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAkwG4AAAAJAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T13:02:54.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Coordenada.cs",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ENTITY\\Coordenada.cs",
-              "RelativeDocumentMoniker": "ENTITY\\Coordenada.cs",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ENTITY\\Coordenada.cs",
-              "RelativeToolTip": "ENTITY\\Coordenada.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T18:09:09.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Alerta.cs",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ENTITY\\Alerta.cs",
-              "RelativeDocumentMoniker": "ENTITY\\Alerta.cs",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ENTITY\\Alerta.cs",
-              "RelativeToolTip": "ENTITY\\Alerta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T18:07:58.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ENTITY\\Usuario.cs",
-              "RelativeDocumentMoniker": "ENTITY\\Usuario.cs",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ENTITY\\Usuario.cs",
-              "RelativeToolTip": "ENTITY\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T18:06:54.745Z",
               "EditorCaption": ""
             }
           ]

@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\",
+  "WorkspaceRootPath": "C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\proyectoaula\\cerrarsesiondialogo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\cerrarsesiondialogo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8255586B-8498-463C-B6C3-36ACC312540D}|ProyectoAula\\ProyectoAula.csproj|c:\\users\\german ballestero\\desktop\\proyectoaula\\proyectoaula\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8255586B-8498-463C-B6C3-36ACC312540D}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\proyectoaula\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8255586B-8498-463C-B6C3-36ACC312540D}|ProyectoAula\\ProyectoAula.csproj|c:\\users\\german ballestero\\desktop\\proyectoaula\\proyectoaula\\iniciodesesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8255586B-8498-463C-B6C3-36ACC312540D}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\iniciodesesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\proyectoaula\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{8255586B-8498-463C-B6C3-36ACC312540D}|ProyectoAula\\ProyectoAula.csproj|c:\\users\\german ballestero\\desktop\\proyectoaula\\proyectoaula\\formmapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8255586B-8498-463C-B6C3-36ACC312540D}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\formmapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\proyectoaula\\cerrarsesiondialogo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\cerrarsesiondialogo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FA43FD9-F2B8-4A14-BA19-34D645782A6D}|BLL\\BLL.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\bll\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA43FD9-F2B8-4A14-BA19-34D645782A6D}|BLL\\BLL.csproj|solutionrelative:bll\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8255586B-8498-463C-B6C3-36ACC312540D}|ProyectoAula\\ProyectoAula.csproj|C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\proyectoaula\\iniciodesesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8255586B-8498-463C-B6C3-36ACC312540D}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\iniciodesesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,66 +26,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CerrarSesionDialogo.xaml.cs",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\CerrarSesionDialogo.xaml.cs",
-              "RelativeDocumentMoniker": "ProyectoAula\\CerrarSesionDialogo.xaml.cs",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\CerrarSesionDialogo.xaml.cs",
-              "RelativeToolTip": "ProyectoAula\\CerrarSesionDialogo.xaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwB4AAAAhAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\ProyectoAula\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoAula\\Program.cs",
+              "ToolTip": "C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\ProyectoAula\\Program.cs",
+              "RelativeToolTip": "ProyectoAula\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA1wBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:29:51.235Z",
+              "WhenOpened": "2024-11-19T19:11:10.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CerrarSesionDialogo.xaml",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\CerrarSesionDialogo.xaml",
-              "RelativeDocumentMoniker": "ProyectoAula\\CerrarSesionDialogo.xaml",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\CerrarSesionDialogo.xaml",
-              "RelativeToolTip": "ProyectoAula\\CerrarSesionDialogo.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-15T18:28:48.7Z"
+              "DocumentIndex": 2,
+              "Title": "FormMapa.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\ProyectoAula\\FormMapa.cs",
+              "RelativeDocumentMoniker": "ProyectoAula\\FormMapa.cs",
+              "ToolTip": "C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\ProyectoAula\\FormMapa.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoAula\\FormMapa.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:50:47.395Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ProyectoAula\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ProyectoAula\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBUAAAA1AAAAAAAAAA==",
+              "Title": "InicioDeSesion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\ProyectoAula\\InicioDeSesion.cs",
+              "RelativeDocumentMoniker": "ProyectoAula\\InicioDeSesion.cs",
+              "ToolTip": "C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\ProyectoAula\\InicioDeSesion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoAula\\InicioDeSesion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T17:37:03.656Z"
+              "WhenOpened": "2024-11-19T16:49:12.852Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "ProyectoAula\\MainWindow.xaml",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\MainWindow.xaml",
-              "RelativeToolTip": "ProyectoAula\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-15T17:03:26.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AlertaService.cs",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\BLL\\AlertaService.cs",
-              "RelativeDocumentMoniker": "BLL\\AlertaService.cs",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\BLL\\AlertaService.cs",
-              "RelativeToolTip": "BLL\\AlertaService.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAuwGIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "InicioDeSesion.cs",
+              "DocumentMoniker": "C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\ProyectoAula\\InicioDeSesion.cs",
+              "RelativeDocumentMoniker": "ProyectoAula\\InicioDeSesion.cs",
+              "ToolTip": "C:\\Users\\German Ballestero\\Desktop\\proyectoAula\\ProyectoAula\\InicioDeSesion.cs",
+              "RelativeToolTip": "ProyectoAula\\InicioDeSesion.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAcwHcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T16:46:06.311Z"
+              "WhenOpened": "2024-11-19T03:57:06.578Z",
+              "EditorCaption": ""
             }
           ]
         }
