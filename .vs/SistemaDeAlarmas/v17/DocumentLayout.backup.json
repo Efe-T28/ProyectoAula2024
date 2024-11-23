@@ -1,26 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\",
+  "WorkspaceRootPath": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\proyectoaula\\cerrarsesiondialogo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\cerrarsesiondialogo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D065BDA-D773-4E85-90FB-2B3B7F1917F7}|ENTITY\\ENTITY.csproj|C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\entity\\tipoalerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D065BDA-D773-4E85-90FB-2B3B7F1917F7}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\tipoalerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\proyectoaula\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D065BDA-D773-4E85-90FB-2B3B7F1917F7}|ENTITY\\ENTITY.csproj|C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\entity\\coordenada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D065BDA-D773-4E85-90FB-2B3B7F1917F7}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\coordenada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\proyectoaula\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9D065BDA-D773-4E85-90FB-2B3B7F1917F7}|ENTITY\\ENTITY.csproj|C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\entity\\alerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D065BDA-D773-4E85-90FB-2B3B7F1917F7}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\alerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\proyectoaula\\cerrarsesiondialogo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A4B0161F-53DA-467C-A42E-1942E0C59282}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\cerrarsesiondialogo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2E0F1117-F452-4237-A525-8DE469E5158D}|DAL\\DAL.csproj|c:\\users\\fapar\\downloads\\proyecto2024\\proyecto2024\\dal\\alertarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E0F1117-F452-4237-A525-8DE469E5158D}|DAL\\DAL.csproj|solutionrelative:dal\\alertarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FA43FD9-F2B8-4A14-BA19-34D645782A6D}|BLL\\BLL.csproj|c:\\proyectoaula2024\\proyectoaula\\proyectoaula\\bll\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FA43FD9-F2B8-4A14-BA19-34D645782A6D}|BLL\\BLL.csproj|solutionrelative:bll\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61B2BC18-9D26-4104-BCA6-6BFE6CAA5748}|BLL\\BLL.csproj|C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\bll\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61B2BC18-9D26-4104-BCA6-6BFE6CAA5748}|BLL\\BLL.csproj|solutionrelative:bll\\alertaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D065BDA-D773-4E85-90FB-2B3B7F1917F7}|ENTITY\\ENTITY.csproj|C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\entity\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9D065BDA-D773-4E85-90FB-2B3B7F1917F7}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8255586B-8498-463C-B6C3-36ACC312540D}|ProyectoAula\\ProyectoAula.csproj|C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\proyectoaula\\formmapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8255586B-8498-463C-B6C3-36ACC312540D}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\formmapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8255586B-8498-463C-B6C3-36ACC312540D}|ProyectoAula\\ProyectoAula.csproj|C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\proyectoaula\\formmapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8255586B-8498-463C-B6C3-36ACC312540D}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\formmapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8255586B-8498-463C-B6C3-36ACC312540D}|ProyectoAula\\ProyectoAula.csproj|C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\proyectoaula\\formopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8255586B-8498-463C-B6C3-36ACC312540D}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\formopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8255586B-8498-463C-B6C3-36ACC312540D}|ProyectoAula\\ProyectoAula.csproj|C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\proyectoaula\\formopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8255586B-8498-463C-B6C3-36ACC312540D}|ProyectoAula\\ProyectoAula.csproj|solutionrelative:proyectoaula\\formopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,66 +50,130 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CerrarSesionDialogo.xaml.cs",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\CerrarSesionDialogo.xaml.cs",
-              "RelativeDocumentMoniker": "ProyectoAula\\CerrarSesionDialogo.xaml.cs",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\CerrarSesionDialogo.xaml.cs",
-              "RelativeToolTip": "ProyectoAula\\CerrarSesionDialogo.xaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwB4AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:29:51.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CerrarSesionDialogo.xaml",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\CerrarSesionDialogo.xaml",
-              "RelativeDocumentMoniker": "ProyectoAula\\CerrarSesionDialogo.xaml",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\CerrarSesionDialogo.xaml",
-              "RelativeToolTip": "ProyectoAula\\CerrarSesionDialogo.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-15T18:28:48.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ProyectoAula\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ProyectoAula\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBUAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T17:37:03.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "ProyectoAula\\MainWindow.xaml",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\ProyectoAula\\MainWindow.xaml",
-              "RelativeToolTip": "ProyectoAula\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-15T17:03:26.962Z"
+              "DocumentIndex": 5,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\ENTITY\\packages.config",
+              "RelativeDocumentMoniker": "ENTITY\\packages.config",
+              "ToolTip": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\ENTITY\\packages.config",
+              "RelativeToolTip": "ENTITY\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-23T20:43:23.859Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "AlertaService.cs",
-              "DocumentMoniker": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\BLL\\AlertaService.cs",
+              "DocumentMoniker": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\BLL\\AlertaService.cs",
               "RelativeDocumentMoniker": "BLL\\AlertaService.cs",
-              "ToolTip": "C:\\ProyectoAula2024\\ProyectoAula\\ProyectoAula\\BLL\\AlertaService.cs",
+              "ToolTip": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\BLL\\AlertaService.cs",
               "RelativeToolTip": "BLL\\AlertaService.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAuwGIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T16:46:06.311Z"
+              "WhenOpened": "2024-11-23T20:42:11.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Coordenada.cs",
+              "DocumentMoniker": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\ENTITY\\Coordenada.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Coordenada.cs",
+              "ToolTip": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\ENTITY\\Coordenada.cs",
+              "RelativeToolTip": "ENTITY\\Coordenada.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T20:42:01.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AlertaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\DAL\\AlertaRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\AlertaRepository.cs",
+              "ToolTip": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\DAL\\AlertaRepository.cs",
+              "RelativeToolTip": "DAL\\AlertaRepository.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAHUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T20:41:43.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TipoAlerta.cs",
+              "DocumentMoniker": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\ENTITY\\TipoAlerta.cs",
+              "RelativeDocumentMoniker": "ENTITY\\TipoAlerta.cs",
+              "ToolTip": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\ENTITY\\TipoAlerta.cs",
+              "RelativeToolTip": "ENTITY\\TipoAlerta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T20:28:52.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Alerta.cs",
+              "DocumentMoniker": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\ENTITY\\Alerta.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Alerta.cs",
+              "ToolTip": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\ENTITY\\Alerta.cs",
+              "RelativeToolTip": "ENTITY\\Alerta.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T20:28:52.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormMapa.cs",
+              "DocumentMoniker": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\ProyectoAula\\FormMapa.cs",
+              "RelativeDocumentMoniker": "ProyectoAula\\FormMapa.cs",
+              "ToolTip": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\ProyectoAula\\FormMapa.cs",
+              "RelativeToolTip": "ProyectoAula\\FormMapa.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAtwEkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T20:02:16.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormOpciones.cs",
+              "DocumentMoniker": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\ProyectoAula\\FormOpciones.cs",
+              "RelativeDocumentMoniker": "ProyectoAula\\FormOpciones.cs",
+              "ToolTip": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\ProyectoAula\\FormOpciones.cs",
+              "RelativeToolTip": "ProyectoAula\\FormOpciones.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAvwCMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T19:47:20.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormOpciones.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\ProyectoAula\\FormOpciones.cs",
+              "RelativeDocumentMoniker": "ProyectoAula\\FormOpciones.cs",
+              "ToolTip": "C:\\Users\\German Ballestero\\Desktop\\proyecto2024\\ProyectoAula\\FormOpciones.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\German Ballestero\\Desktop\\proyecto2024\\ProyectoAula\\FormOpciones.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T19:32:23.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormMapa.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\fapar\\Downloads\\proyecto2024\\proyecto2024\\ProyectoAula\\FormMapa.cs",
+              "RelativeDocumentMoniker": "ProyectoAula\\FormMapa.cs",
+              "ToolTip": "C:\\Users\\German Ballestero\\Desktop\\proyecto2024\\ProyectoAula\\FormMapa.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\German Ballestero\\Desktop\\proyecto2024\\ProyectoAula\\FormMapa.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:50:47.395Z"
             }
           ]
         }

@@ -9,41 +9,31 @@ namespace ENTITY
     public class Alerta
     {
         public int Id { get; set; }
-        public string Descripcion { get; set; }
         public DateTime FechaHora { get; set; }
         public Coordenada Ubicacion { get; set; }
-        public int UsuarioId { get; set; }
-
-
-        public enum TipoAlerta
-        {
-            Accidente,
-            ActividadSospechosa
-        }
-
-
         public TipoAlerta Tipo { get; private set; }
 
-
-        public Alerta(TipoAlerta tipo, string descripcion, Coordenada ubicacion, int usuarioId)
+        public Alerta(TipoAlerta tipo, Coordenada ubicacion)
         {
+            if (!TipoAlerta.EsTipoValido(tipo))
+            {
+                throw new ArgumentException("Tipo de alerta no válido", nameof(tipo));
+            }
+
             this.Tipo = tipo;
-            this.Descripcion = descripcion;
             this.FechaHora = DateTime.Now;
             this.Ubicacion = ubicacion;
-            this.UsuarioId = usuarioId;
         }
-
 
         public void CambiarTipoAlerta(TipoAlerta nuevoTipo)
         {
+            if (!TipoAlerta.EsTipoValido(nuevoTipo))
+            {
+                throw new ArgumentException("Tipo de alerta no válido", nameof(nuevoTipo));
+            }
+
             this.Tipo = nuevoTipo;
-        }
-
-
-        private bool EsTipoValido(TipoAlerta tipo)
-        {
-            return Enum.IsDefined(typeof(TipoAlerta), tipo);
         }
     }
 }
+

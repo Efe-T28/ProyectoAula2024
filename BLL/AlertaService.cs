@@ -18,30 +18,23 @@ namespace BLL
             _alertaRepository = new AlertaRepository();
         }
 
-        public string InsertarAlerta(string descripcion, Alerta.TipoAlerta tipo,
-            Coordenada ubicacion, int usuarioId)
+        public string InsertarAlerta(TipoAlerta tipo, Coordenada ubicacion)
         {
             try
             {
-                // Validaciones de negocio
-                if (string.IsNullOrWhiteSpace(descripcion))
-                    return "La descripción de la alerta no puede estar vacía";
-
                 if (ubicacion == null)
                     return "La ubicación es requerida";
 
-                if (usuarioId <= 0)
-                    return "El ID de usuario no es válido";
+                if (!TipoAlerta.EsTipoValido(tipo))
+                    return "El tipo de alerta no es válido";
 
-                // Crear nueva alerta
-                var alerta = new Alerta(tipo, descripcion, ubicacion, usuarioId);
+                var alerta = new Alerta(tipo, ubicacion);
 
-                // Insertar en la base de datos
                 return _alertaRepository.Insertar(alerta);
             }
             catch (Exception ex)
             {
-                // Log del error aquí si es necesario
+                
                 return $"Error al insertar la alerta: {ex.Message}";
             }
         }
@@ -54,34 +47,19 @@ namespace BLL
             }
             catch (Exception ex)
             {
-                // Log del error aquí si es necesario
                 throw new Exception($"Error al obtener las alertas: {ex.Message}", ex);
             }
         }
 
-        public List<Alerta> ObtenerAlertasPorTipo(Alerta.TipoAlerta tipo)
+        public List<Alerta> ObtenerAlertasPorTipo(TipoAlerta tipo)
         {
             try
             {
-                return _alertaRepository.Seleccionar()
-                    .FindAll(a => a.Tipo == tipo);
+                return _alertaRepository.Seleccionar().FindAll(a => a.Tipo == tipo);
             }
             catch (Exception ex)
             {
                 throw new Exception($"Error al obtener las alertas por tipo: {ex.Message}", ex);
-            }
-        }
-
-        public List<Alerta> ObtenerAlertasPorUsuario(int usuarioId)
-        {
-            try
-            {
-                return _alertaRepository.Seleccionar()
-                    .FindAll(a => a.UsuarioId == usuarioId);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception($"Error al obtener las alertas del usuario: {ex.Message}", ex);
             }
         }
 
@@ -90,8 +68,7 @@ namespace BLL
             try
             {
                 var fechaLimite = DateTime.Now.AddHours(-horasAtras);
-                return _alertaRepository.Seleccionar()
-                    .FindAll(a => a.FechaHora >= fechaLimite);
+                return _alertaRepository.Seleccionar().FindAll(a => a.FechaHora >= fechaLimite);
             }
             catch (Exception ex)
             {

@@ -7,8 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace DAL
-{
+    namespace DAL
+    {
     public class AlertaRepository
     {
         private readonly SqlConnection _connection;
@@ -21,20 +21,18 @@ namespace DAL
 
         public string Insertar(Alerta alerta)
         {
-            string ssql = @"INSERT INTO [Alertas]([Descripcion],[FechaHora],[Ubicacion_Latitud],
-                           [Ubicacion_Longitud],[UsuarioId],[Tipo]) 
-                           VALUES(@Descripcion, @FechaHora, @Latitud, @Longitud, @UsuarioId, @Tipo)";
+            string ssql = @"INSERT INTO [Alertas]([FechaHora],[Ubicacion_Latitud],
+                           [Ubicacion_Longitud],[Tipo]) 
+                           VALUES(@FechaHora, @Latitud, @Longitud, @Tipo)";
 
             try
             {
                 using (SqlCommand cmd = new SqlCommand(ssql, _connection))
                 {
-                    cmd.Parameters.AddWithValue("@Descripcion", alerta.Descripcion);
                     cmd.Parameters.AddWithValue("@FechaHora", alerta.FechaHora);
                     cmd.Parameters.AddWithValue("@Latitud", alerta.Ubicacion.Latitud);
                     cmd.Parameters.AddWithValue("@Longitud", alerta.Ubicacion.Longitud);
-                    cmd.Parameters.AddWithValue("@UsuarioId", alerta.UsuarioId);
-                    cmd.Parameters.AddWithValue("@Tipo", alerta.Tipo.ToString());
+                    cmd.Parameters.AddWithValue("@Tipo", alerta.Tipo.Nombre);
 
                     _connection.Open();
                     int filasAfectadas = cmd.ExecuteNonQuery();
@@ -89,24 +87,31 @@ namespace DAL
 
         private Alerta Mapper(SqlDataReader reader)
         {
-            var tipo = (Alerta.TipoAlerta)Enum.Parse(typeof(Alerta.TipoAlerta),
-                reader.GetString(reader.GetOrdinal("Tipo")));
+            var tipoNombre = reader.GetString(reader.GetOrdinal("Tipo"));
+            TipoAlerta tipo;
+            switch (tipoNombre)
+            {
+                case "Accidente":
+                    tipo = TipoAlerta.Accidente;
+                    break;
+                case "Robo":
+                    tipo = TipoAlerta.Robo;
+                    break;
+                case "Actividad Sospechosa":
+                    tipo = TipoAlerta.ActividadSospechosa;
+                    break;
+                default:
+                    throw new ArgumentException($"Tipo de alerta no válido: {tipoNombre}");
+            }
 
             var coordenada = new Coordenada(
-                reader.GetDouble(reader.GetOrdinal("Latitud")),
-                reader.GetDouble(reader.GetOrdinal("Longitud"))
+                reader.GetDouble(reader.GetOrdinal("Ubicacion_Latitud")),
+                reader.GetDouble(reader.GetOrdinal("Ubicacion_Longitud"))
             );
 
-            var alerta = new Alerta(
-                tipo,
-                reader.GetString(reader.GetOrdinal("Descripcion")),
-                coordenada,
-                reader.GetInt32(reader.GetOrdinal("UsuarioId"))
-            );
-
-            // Establecer el Id después de la creación
-            var id = reader.GetInt32(reader.GetOrdinal("Id"));
-            typeof(Alerta).GetProperty("Id").SetValue(alerta, id);
+            var alerta = new Alerta(tipo, coordenada);
+            alerta.Id = reader.GetInt32(reader.GetOrdinal("Id"));
+            alerta.FechaHora = reader.GetDateTime(reader.GetOrdinal("FechaHora"));
 
             return alerta;
         }

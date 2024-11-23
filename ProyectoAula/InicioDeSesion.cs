@@ -41,9 +41,6 @@ namespace ProyectoAula
             btnSignIn.Paint += (s, ev) => RedondearBoton(s as Button, ev.Graphics, 20);
             btnExit.Paint += (s, ev) => RedondearBoton(s as Button, ev.Graphics, 20);
 
-            Panel backgroundOverlay = new Panel();
-            backgroundOverlay.BackColor = Color.FromArgb(40, 0, 0, 0);
-            backgroundOverlay.Dock = DockStyle.Fill;
         }
 
         private void RedondearBoton(Button button, Graphics graphics, int radius)
