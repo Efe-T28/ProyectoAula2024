@@ -16,7 +16,7 @@ namespace ProyectoAula
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormOpciones());
+            Application.Run(new InicioDeSesion());
         }
     }
 }

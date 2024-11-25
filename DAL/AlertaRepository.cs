@@ -12,34 +12,46 @@ using System.Threading.Tasks;
     public class AlertaRepository
     {
         private readonly SqlConnection _connection;
-        private const string cadenaConexion = "Server=.\\SQLEXPRESS;Database=grupo3;Trusted_Connection=True;";
+        private const string cadenaConexion = "Server=.\\SQLEXPRESS;Database=SistemaAlertas;Trusted_Connection=True;";
 
         public AlertaRepository()
         {
             _connection = new SqlConnection(cadenaConexion);
         }
 
-        public string Insertar(Alerta alerta)
+        //funcion encargada de insertar las alertas que se crean en la base de datos
+        public string InsertarAlerta(Alerta alerta)
         {
-            string ssql = @"INSERT INTO [Alertas]([FechaHora],[Ubicacion_Latitud],
-                           [Ubicacion_Longitud],[Tipo]) 
-                           VALUES(@FechaHora, @Latitud, @Longitud, @Tipo)";
+            string ssql = @"INSERT INTO [dbo].[Alertas]
+                   ([IdAlerta]
+                   ,[FechaHora]
+                   ,[Latitud]
+
+                   ,[Longitud]
+                   ,[NombreTipoAlerta])
+             VALUES
+                   (@IdAlerta
+                   ,@FechaHora
+                   ,@Latitud
+                   ,@Longitud
+                   ,@NombreTipoAlerta)";
 
             try
             {
                 using (SqlCommand cmd = new SqlCommand(ssql, _connection))
                 {
+                    cmd.Parameters.AddWithValue("@IdAlerta", alerta.Id);
                     cmd.Parameters.AddWithValue("@FechaHora", alerta.FechaHora);
-                    cmd.Parameters.AddWithValue("@Latitud", alerta.Ubicacion.Latitud);
-                    cmd.Parameters.AddWithValue("@Longitud", alerta.Ubicacion.Longitud);
-                    cmd.Parameters.AddWithValue("@Tipo", alerta.Tipo.Nombre);
+                    cmd.Parameters.AddWithValue("@Latitud", alerta.obtenerLatitud(alerta.Ubicacion));
+                    cmd.Parameters.AddWithValue("@Longitud", alerta.obtenerLongitud(alerta.Ubicacion));
+                    cmd.Parameters.AddWithValue("@NombreTipoAlerta", alerta.Tipo.Nombre);
 
                     _connection.Open();
                     int filasAfectadas = cmd.ExecuteNonQuery();
                     _connection.Close();
 
                     return filasAfectadas > 0
-                        ? $"Se agregó la alerta correctamente"
+                        ? $"Se agregó la alerta con ID {alerta.Id} correctamente"
                         : "No se pudo agregar la alerta";
                 }
             }
@@ -47,17 +59,39 @@ using System.Threading.Tasks;
             {
                 return $"Error al insertar alerta: {ex.Message}";
             }
-            finally
+        }
+
+        //funcion encargada de eliminar las alertas en la base de datos
+        public string EliminarAlerta(int idAlerta)
+        {
+            string ssql = "DELETE FROM [dbo].[Alertas] WHERE [IdAlerta] = @IdAlerta";
+
+            try
             {
-                if (_connection.State == System.Data.ConnectionState.Open)
+                using (SqlCommand cmd = new SqlCommand(ssql, _connection))
+                {
+                    cmd.Parameters.AddWithValue("@IdAlerta", idAlerta);
+
+                    _connection.Open();
+                    int filasAfectadas = cmd.ExecuteNonQuery();
                     _connection.Close();
+
+                    return filasAfectadas > 0
+                        ? $"Se eliminó la alerta con ID {idAlerta} correctamente"
+                        : $"No se encontró ninguna alerta con ID {idAlerta}";
+                }
+            }
+            catch (Exception ex)
+            {
+                return $"Error al eliminar la alerta: {ex.Message}";
             }
         }
 
-        public List<Alerta> Seleccionar()
+        //funcion encargada de leer la base de datos y devolver una lista con las alertas almacenadas
+        public List<Alerta> SeleccionarAlertas()
         {
             List<Alerta> alertas = new List<Alerta>();
-            string ssql = "SELECT * FROM Alertas";
+            string ssql = "SELECT * FROM [dbo].[Alertas]";
 
             try
             {
@@ -68,15 +102,15 @@ using System.Threading.Tasks;
                     {
                         while (reader.Read())
                         {
-                            alertas.Add(Mapper(reader));
+                            alertas.Add(MapearAlerta(reader));
                         }
                     }
                 }
                 return alertas;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw;
+                throw new Exception($"Error al seleccionar alertas: {ex.Message}", ex);
             }
             finally
             {
@@ -84,10 +118,11 @@ using System.Threading.Tasks;
                     _connection.Close();
             }
         }
-
-        private Alerta Mapper(SqlDataReader reader)
+        
+        //esta funcion se presenta sola, mapea la informacion obtenida de la base de datos para almacenarla en la list
+        private Alerta MapearAlerta(SqlDataReader reader)
         {
-            var tipoNombre = reader.GetString(reader.GetOrdinal("Tipo"));
+            var tipoNombre = reader.GetString(reader.GetOrdinal("NombreTipoAlerta"));
             TipoAlerta tipo;
             switch (tipoNombre)
             {
@@ -104,13 +139,14 @@ using System.Threading.Tasks;
                     throw new ArgumentException($"Tipo de alerta no válido: {tipoNombre}");
             }
 
+            // Conversión de decimal a double antes de asignar a Coordenada
             var coordenada = new Coordenada(
-                reader.GetDouble(reader.GetOrdinal("Ubicacion_Latitud")),
-                reader.GetDouble(reader.GetOrdinal("Ubicacion_Longitud"))
+                Convert.ToDouble(reader.GetDecimal(reader.GetOrdinal("Latitud"))),
+                Convert.ToDouble(reader.GetDecimal(reader.GetOrdinal("Longitud")))
             );
 
             var alerta = new Alerta(tipo, coordenada);
-            alerta.Id = reader.GetInt32(reader.GetOrdinal("Id"));
+            alerta.Id = reader.GetInt32(reader.GetOrdinal("IdAlerta"));
             alerta.FechaHora = reader.GetDateTime(reader.GetOrdinal("FechaHora"));
 
             return alerta;

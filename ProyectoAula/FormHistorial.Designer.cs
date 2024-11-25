@@ -1,6 +1,6 @@
 ﻿namespace ProyectoAula
 {
-    partial class FormOpciones
+    partial class FormHistorial
     {
         /// <summary>
         /// Required designer variable.
@@ -28,45 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnInicio = new System.Windows.Forms.Button();
             this.pnlBarraSuperior = new System.Windows.Forms.Panel();
             this.btnSalir = new System.Windows.Forms.Button();
             this.pnlBarraInferior = new System.Windows.Forms.Panel();
-            this.gMapControl1 = new GMap.NET.WindowsForms.GMapControl();
             this.pnlOpciones = new System.Windows.Forms.Panel();
+            this.cmbTipoAlerta = new System.Windows.Forms.ComboBox();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.dtgAlertas = new System.Windows.Forms.DataGridView();
             this.PNLsEPARACION = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.lblNombreApp = new System.Windows.Forms.Label();
             this.lblW = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.lblLongitud = new System.Windows.Forms.Label();
             this.lblLatitud = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.cmbTipoAlerta = new System.Windows.Forms.ComboBox();
+            this.txtLongitud = new System.Windows.Forms.TextBox();
+            this.txtLatitud = new System.Windows.Forms.TextBox();
+            this.gmpMapa = new GMap.NET.WindowsForms.GMapControl();
+            this.btnUbicacion = new System.Windows.Forms.Button();
             this.pnlBarraSuperior.SuspendLayout();
             this.pnlOpciones.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgAlertas)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(249, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 32);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "OPCIONES";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -109,7 +93,6 @@
             // 
             this.pnlBarraSuperior.BackColor = System.Drawing.Color.Black;
             this.pnlBarraSuperior.Controls.Add(this.btnSalir);
-            this.pnlBarraSuperior.Controls.Add(this.button1);
             this.pnlBarraSuperior.Controls.Add(this.button2);
             this.pnlBarraSuperior.Controls.Add(this.btnInicio);
             this.pnlBarraSuperior.Location = new System.Drawing.Point(0, -2);
@@ -141,50 +124,63 @@
             this.pnlBarraInferior.Size = new System.Drawing.Size(1120, 33);
             this.pnlBarraInferior.TabIndex = 6;
             // 
-            // gMapControl1
-            // 
-            this.gMapControl1.BackColor = System.Drawing.Color.Transparent;
-            this.gMapControl1.Bearing = 0F;
-            this.gMapControl1.CanDragMap = true;
-            this.gMapControl1.EmptyTileColor = System.Drawing.Color.Navy;
-            this.gMapControl1.GrayScaleMode = false;
-            this.gMapControl1.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
-            this.gMapControl1.LevelsKeepInMemmory = 5;
-            this.gMapControl1.Location = new System.Drawing.Point(503, 26);
-            this.gMapControl1.MarkersEnabled = true;
-            this.gMapControl1.MaxZoom = 2;
-            this.gMapControl1.MinZoom = 2;
-            this.gMapControl1.MouseWheelZoomEnabled = true;
-            this.gMapControl1.MouseWheelZoomType = GMap.NET.MouseWheelZoomType.MousePositionAndCenter;
-            this.gMapControl1.Name = "gMapControl1";
-            this.gMapControl1.NegativeMode = false;
-            this.gMapControl1.PolygonsEnabled = true;
-            this.gMapControl1.RetryLoadTile = 0;
-            this.gMapControl1.RoutesEnabled = true;
-            this.gMapControl1.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
-            this.gMapControl1.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
-            this.gMapControl1.ShowTileGridLines = false;
-            this.gMapControl1.Size = new System.Drawing.Size(614, 613);
-            this.gMapControl1.TabIndex = 7;
-            this.gMapControl1.Zoom = 0D;
-            // 
             // pnlOpciones
             // 
             this.pnlOpciones.Controls.Add(this.cmbTipoAlerta);
             this.pnlOpciones.Controls.Add(this.btnEliminar);
-            this.pnlOpciones.Controls.Add(this.dataGridView1);
+            this.pnlOpciones.Controls.Add(this.dtgAlertas);
             this.pnlOpciones.Controls.Add(this.PNLsEPARACION);
             this.pnlOpciones.Controls.Add(this.label1);
             this.pnlOpciones.Controls.Add(this.lblNombreApp);
             this.pnlOpciones.Controls.Add(this.lblW);
             this.pnlOpciones.Controls.Add(this.lblLongitud);
             this.pnlOpciones.Controls.Add(this.lblLatitud);
-            this.pnlOpciones.Controls.Add(this.textBox2);
-            this.pnlOpciones.Controls.Add(this.textBox1);
+            this.pnlOpciones.Controls.Add(this.txtLongitud);
+            this.pnlOpciones.Controls.Add(this.txtLatitud);
             this.pnlOpciones.Location = new System.Drawing.Point(0, 30);
             this.pnlOpciones.Name = "pnlOpciones";
-            this.pnlOpciones.Size = new System.Drawing.Size(505, 597);
+            this.pnlOpciones.Size = new System.Drawing.Size(514, 597);
             this.pnlOpciones.TabIndex = 8;
+            // 
+            // cmbTipoAlerta
+            // 
+            this.cmbTipoAlerta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbTipoAlerta.ForeColor = System.Drawing.Color.Black;
+            this.cmbTipoAlerta.FormattingEnabled = true;
+            this.cmbTipoAlerta.Items.AddRange(new object[] {
+            "Accidente",
+            "Robo",
+            "Actividad Sospechosa"});
+            this.cmbTipoAlerta.Location = new System.Drawing.Point(18, 243);
+            this.cmbTipoAlerta.Name = "cmbTipoAlerta";
+            this.cmbTipoAlerta.Size = new System.Drawing.Size(213, 28);
+            this.cmbTipoAlerta.TabIndex = 6;
+            this.cmbTipoAlerta.Text = "Tipo Alerta...";
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.BackColor = System.Drawing.Color.Firebrick;
+            this.btnEliminar.FlatAppearance.BorderSize = 0;
+            this.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnEliminar.Location = new System.Drawing.Point(376, 540);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.TabIndex = 12;
+            this.btnEliminar.Text = "ELIMINAR";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // dtgAlertas
+            // 
+            this.dtgAlertas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dtgAlertas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgAlertas.Location = new System.Drawing.Point(54, 308);
+            this.dtgAlertas.Name = "dtgAlertas";
+            this.dtgAlertas.Size = new System.Drawing.Size(397, 226);
+            this.dtgAlertas.TabIndex = 11;
             // 
             // PNLsEPARACION
             // 
@@ -234,13 +230,6 @@
             this.lblW.TabIndex = 8;
             this.lblW.Text = "Wx";
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(269, 199);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(213, 20);
-            this.textBox2.TabIndex = 2;
-            // 
             // lblLongitud
             // 
             this.lblLongitud.AutoSize = true;
@@ -267,52 +256,61 @@
             this.lblLatitud.TabIndex = 4;
             this.lblLatitud.Text = "LATITUD";
             // 
-            // textBox1
+            // txtLongitud
             // 
-            this.textBox1.Location = new System.Drawing.Point(18, 199);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(213, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtLongitud.Location = new System.Drawing.Point(269, 199);
+            this.txtLongitud.Name = "txtLongitud";
+            this.txtLongitud.Size = new System.Drawing.Size(213, 20);
+            this.txtLongitud.TabIndex = 2;
             // 
-            // dataGridView1
+            // txtLatitud
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 286);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(505, 226);
-            this.dataGridView1.TabIndex = 11;
+            this.txtLatitud.Location = new System.Drawing.Point(18, 199);
+            this.txtLatitud.Name = "txtLatitud";
+            this.txtLatitud.Size = new System.Drawing.Size(213, 20);
+            this.txtLatitud.TabIndex = 1;
             // 
-            // btnEliminar
+            // gmpMapa
             // 
-            this.btnEliminar.BackColor = System.Drawing.Color.Firebrick;
-            this.btnEliminar.FlatAppearance.BorderSize = 0;
-            this.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnEliminar.Location = new System.Drawing.Point(430, 527);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
-            this.btnEliminar.TabIndex = 12;
-            this.btnEliminar.Text = "ELIMINAR";
-            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.gmpMapa.BackColor = System.Drawing.Color.Transparent;
+            this.gmpMapa.Bearing = 0F;
+            this.gmpMapa.CanDragMap = true;
+            this.gmpMapa.EmptyTileColor = System.Drawing.Color.Navy;
+            this.gmpMapa.GrayScaleMode = false;
+            this.gmpMapa.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
+            this.gmpMapa.LevelsKeepInMemmory = 5;
+            this.gmpMapa.Location = new System.Drawing.Point(511, 30);
+            this.gmpMapa.MarkersEnabled = true;
+            this.gmpMapa.MaxZoom = 2;
+            this.gmpMapa.MinZoom = 2;
+            this.gmpMapa.MouseWheelZoomEnabled = true;
+            this.gmpMapa.MouseWheelZoomType = GMap.NET.MouseWheelZoomType.MousePositionAndCenter;
+            this.gmpMapa.Name = "gmpMapa";
+            this.gmpMapa.NegativeMode = false;
+            this.gmpMapa.PolygonsEnabled = true;
+            this.gmpMapa.RetryLoadTile = 0;
+            this.gmpMapa.RoutesEnabled = true;
+            this.gmpMapa.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
+            this.gmpMapa.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
+            this.gmpMapa.ShowTileGridLines = false;
+            this.gmpMapa.Size = new System.Drawing.Size(609, 594);
+            this.gmpMapa.TabIndex = 9;
+            this.gmpMapa.Zoom = 0D;
             // 
-            // cmbTipoAlerta
+            // btnUbicacion
             // 
-            this.cmbTipoAlerta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbTipoAlerta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.cmbTipoAlerta.FormattingEnabled = true;
-            this.cmbTipoAlerta.Items.AddRange(new object[] {
-            "ACCIDENTE",
-            "ROBO",
-            "ALTERCADO"});
-            this.cmbTipoAlerta.Location = new System.Drawing.Point(18, 243);
-            this.cmbTipoAlerta.Name = "cmbTipoAlerta";
-            this.cmbTipoAlerta.Size = new System.Drawing.Size(213, 28);
-            this.cmbTipoAlerta.TabIndex = 13;
-            this.cmbTipoAlerta.Text = "TIPO DE ALERTA";
+            this.btnUbicacion.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnUbicacion.FlatAppearance.BorderSize = 3;
+            this.btnUbicacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUbicacion.Image = global::ProyectoAula.Properties.Resources.ubicaionMia;
+            this.btnUbicacion.Location = new System.Drawing.Point(1067, 36);
+            this.btnUbicacion.Name = "btnUbicacion";
+            this.btnUbicacion.Size = new System.Drawing.Size(39, 37);
+            this.btnUbicacion.TabIndex = 10;
+            this.btnUbicacion.UseVisualStyleBackColor = true;
+            this.btnUbicacion.Click += new System.EventHandler(this.btnUbicacion_Click);
             // 
-            // FormOpciones
+            // FormHistorial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -320,32 +318,30 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1118, 651);
             this.Controls.Add(this.pnlBarraInferior);
-            this.Controls.Add(this.pnlOpciones);
+            this.Controls.Add(this.btnUbicacion);
             this.Controls.Add(this.pnlBarraSuperior);
-            this.Controls.Add(this.gMapControl1);
+            this.Controls.Add(this.gmpMapa);
+            this.Controls.Add(this.pnlOpciones);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimizeBox = false;
-            this.Name = "FormOpciones";
+            this.Name = "FormHistorial";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormOpciones";
-            this.Load += new System.EventHandler(this.FormOpciones_Load);
+            this.Load += new System.EventHandler(this.FormHistorial_Load);
             this.pnlBarraSuperior.ResumeLayout(false);
             this.pnlOpciones.ResumeLayout(false);
             this.pnlOpciones.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgAlertas)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnInicio;
         private System.Windows.Forms.Panel pnlBarraSuperior;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Panel pnlBarraInferior;
-        private GMap.NET.WindowsForms.GMapControl gMapControl1;
         private System.Windows.Forms.Panel pnlOpciones;
         private System.Windows.Forms.Panel PNLsEPARACION;
         private System.Windows.Forms.Label label1;
@@ -353,10 +349,12 @@
         private System.Windows.Forms.Label lblW;
         private System.Windows.Forms.Label lblLongitud;
         private System.Windows.Forms.Label lblLatitud;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox txtLongitud;
+        private System.Windows.Forms.TextBox txtLatitud;
+        private System.Windows.Forms.DataGridView dtgAlertas;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.ComboBox cmbTipoAlerta;
+        private GMap.NET.WindowsForms.GMapControl gmpMapa;
+        private System.Windows.Forms.Button btnUbicacion;
     }
 }

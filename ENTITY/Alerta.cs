@@ -34,6 +34,20 @@ namespace ENTITY
 
             this.Tipo = nuevoTipo;
         }
+
+        //devuelve el valor del atributo latitud, importante funcion a la hora de crear las alertas con la informacion de la base de datos
+        public double obtenerLatitud(Coordenada coordenada)
+        {
+            double latitud = coordenada.Latitud;
+            return latitud;
+        }
+
+        //cumple el mismo papel de la funcion de arriba solo que esta devuelve la longitud
+        public double obtenerLongitud(Coordenada coordenada)
+        {
+            double longitud = coordenada.Longitud;
+            return longitud;
+        }
     }
 }
 
