@@ -49,3 +49,17 @@ C:\Users\German Ballestero\Desktop\proyectoActualizado\DAL\obj\Debug\DAL.csproj.
 C:\Users\German Ballestero\Desktop\proyectoActualizado\DAL\obj\Debug\DAL.csproj.Up2Date
 C:\Users\German Ballestero\Desktop\proyectoActualizado\DAL\obj\Debug\DAL.dll
 C:\Users\German Ballestero\Desktop\proyectoActualizado\DAL\obj\Debug\DAL.pdb
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\DAL\bin\Debug\DAL.dll
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\DAL\bin\Debug\DAL.pdb
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\DAL\bin\Debug\AjaxMin.dll
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\DAL\bin\Debug\ENTITY.dll
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\DAL\bin\Debug\GMap.NET.Core.dll
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\DAL\bin\Debug\Gmap.net.dll
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\DAL\bin\Debug\GMap.NET.WindowsForms.dll
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\DAL\bin\Debug\ENTITY.pdb
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\DAL\bin\Debug\Gmap.net.pdb
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\DAL\obj\Debug\DAL.dll
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\DAL\obj\Debug\DAL.pdb

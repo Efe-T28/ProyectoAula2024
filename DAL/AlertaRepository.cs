@@ -19,7 +19,7 @@ using System.Threading.Tasks;
             _connection = new SqlConnection(cadenaConexion);
         }
 
-        //funcion encargada de insertar las alertas que se crean en la base de datos
+      
         public string InsertarAlerta(Alerta alerta)
         {
             string ssql = @"INSERT INTO [dbo].[Alertas]
@@ -61,7 +61,7 @@ using System.Threading.Tasks;
             }
         }
 
-        //funcion encargada de eliminar las alertas en la base de datos
+      
         public string EliminarAlerta(int idAlerta)
         {
             string ssql = "DELETE FROM [dbo].[Alertas] WHERE [IdAlerta] = @IdAlerta";
@@ -87,7 +87,7 @@ using System.Threading.Tasks;
             }
         }
 
-        //funcion encargada de leer la base de datos y devolver una lista con las alertas almacenadas
+      
         public List<Alerta> SeleccionarAlertas()
         {
             List<Alerta> alertas = new List<Alerta>();
@@ -119,7 +119,7 @@ using System.Threading.Tasks;
             }
         }
         
-        //esta funcion se presenta sola, mapea la informacion obtenida de la base de datos para almacenarla en la list
+        
         private Alerta MapearAlerta(SqlDataReader reader)
         {
             var tipoNombre = reader.GetString(reader.GetOrdinal("NombreTipoAlerta"));
@@ -139,7 +139,7 @@ using System.Threading.Tasks;
                     throw new ArgumentException($"Tipo de alerta no válido: {tipoNombre}");
             }
 
-            // Conversión de decimal a double antes de asignar a Coordenada
+            
             var coordenada = new Coordenada(
                 Convert.ToDouble(reader.GetDecimal(reader.GetOrdinal("Latitud"))),
                 Convert.ToDouble(reader.GetDecimal(reader.GetOrdinal("Longitud")))

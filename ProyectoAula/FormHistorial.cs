@@ -13,6 +13,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ENTITY;
+using static BLL.AlertaService;
 
 namespace ProyectoAula
 {
@@ -36,7 +37,6 @@ namespace ProyectoAula
 
         private void ConfigurarEventos()
         {
-            //quitamos la fila vacia que aparece por defecto en la grid para que esto no nos provoque errores
             dtgAlertas.AllowUserToAddRows = false;
             dtgAlertas.SelectionChanged += DtgAlertas_SelectionChanged;
             Load += FormHistorial_Load;
@@ -309,14 +309,56 @@ namespace ProyectoAula
 
         private void ConfigurarComboBoxFiltro()
         {
-            cmbTipoAlerta.SelectedIndex = -1;
+            cmbTipoAlerta.Items.Clear();
+            cmbTipoAlerta.Items.Add("Todas"); 
+
+            
+            cmbTipoAlerta.Items.Add(TipoAlerta.Accidente.Nombre);
+            cmbTipoAlerta.Items.Add(TipoAlerta.Robo.Nombre);
+            cmbTipoAlerta.Items.Add(TipoAlerta.ActividadSospechosa.Nombre);
+
+            cmbTipoAlerta.SelectedIndex = 0; 
+            cmbTipoAlerta.SelectedIndexChanged += CmbFiltroAlertas_SelectedIndexChanged;
+        }
+
+        private void FiltrarAlertas(TipoAlerta tipoAlerta, DateTime? fechaInicio = null, DateTime? fechaFin = null,
+                            double? latMin = null, double? latMax = null,
+                            double? lonMin = null, double? lonMax = null)
+        {
+            try
+            {
+                var alertasFiltradas = _alertaService.ObtenerAlertasFiltradas(tipoAlerta, fechaInicio, fechaFin, latMin, latMax, lonMin, lonMax);
+
+                MostrarAlertasEnGrid(alertasFiltradas);
+                MostrarAlertasEnMapa(alertasFiltradas);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al filtrar las alertas: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void CmbFiltroAlertas_SelectedIndexChanged(object sender, EventArgs e)
         {
             string filtroSeleccionado = (sender as ComboBox).SelectedItem.ToString();
-            //FiltrarAlertas(filtroSeleccionado);
+
+            TipoAlerta tipoAlerta = ObtenerTipoAlertaPorNombre(filtroSeleccionado);
+
+            FiltrarAlertas(tipoAlerta);
         }
 
+        private TipoAlerta ObtenerTipoAlertaPorNombre(string nombre)
+        {
+            if (nombre == TipoAlerta.Accidente.Nombre) return TipoAlerta.Accidente;
+            if (nombre == TipoAlerta.Robo.Nombre) return TipoAlerta.Robo;
+            if (nombre == TipoAlerta.ActividadSospechosa.Nombre) return TipoAlerta.ActividadSospechosa;
+            return null;
+        }
+
+
+        private void dtgAlertas_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

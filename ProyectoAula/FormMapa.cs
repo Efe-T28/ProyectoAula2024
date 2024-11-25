@@ -52,7 +52,7 @@ namespace ProyectoAula
             pnlOpciones.BackColor = Color.FromArgb(150, 0, 0, 0);
         }
 
-        //configuracion del mapa 
+        
         private void ConfigurarMapa()
         {
             gMapControl1.DragButton = MouseButtons.Left;
@@ -69,8 +69,6 @@ namespace ProyectoAula
             gMapControl1.Overlays.Add(markersOverlay);
         }
 
-        //esta funcion crea un marcador inicial que es el lugar donde se supone estaremos
-        //mas adelante debe ser cambiada por geolocalizacion en tiempo real
         private void AgregarMarcadorInicial()
         {
             markerInicial = new GMarkerGoogle(new PointLatLng(latInicial, lngInicial), GMarkerGoogleType.arrow);

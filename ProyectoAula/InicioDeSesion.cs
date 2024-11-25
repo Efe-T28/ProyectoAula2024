@@ -35,7 +35,7 @@ namespace ProyectoAula
 
         private void InicioDeSesion_Load(object sender, EventArgs e)
         {
-            // Personaliza los botones
+            
             btnSignIn.FlatStyle = FlatStyle.Flat;
             btnSignIn.FlatAppearance.BorderSize = 0;
             btnSignIn.Paint += (s, ev) => RedondearBoton(s as Button, ev.Graphics, 20);
@@ -48,14 +48,14 @@ namespace ProyectoAula
             Rectangle rect = new Rectangle(0, 0, button.Width, button.Height);
             GraphicsPath path = new GraphicsPath();
 
-            // Crear bordes redondeados
+            
             path.AddArc(rect.X, rect.Y, radius, radius, 180, 90);
             path.AddArc(rect.X + rect.Width - radius, rect.Y, radius, radius, 270, 90);
             path.AddArc(rect.X + rect.Width - radius, rect.Y + rect.Height - radius, radius, radius, 0, 90);
             path.AddArc(rect.X, rect.Y + rect.Height - radius, radius, radius, 90, 90);
             path.CloseFigure();
 
-            // Dibujar el botón con bordes redondeados
+            
             button.Region = new Region(path);
             graphics.SmoothingMode = SmoothingMode.AntiAlias;
             using (Pen pen = new Pen(Color.Gray, 2))

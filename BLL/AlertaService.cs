@@ -29,12 +29,12 @@ namespace BLL
             Coordenada ubicacion = new Coordenada(latitud, longitud);
             Alerta alerta = new Alerta(tipo, ubicacion);
             alerta.Id = GenerarIdAleatorio();
-            alerta.FechaHora = DateTime.Now; // se asigna la fecha y la hora del momento en que se crea la alerte, es decir por defecto
+            alerta.FechaHora = DateTime.Now; 
             AlertaRepository.InsertarAlerta(alerta);
             return alerta;
         }
 
-        //esta funcion esta encargada de llenar el campo tipo de alerta de la clase alerta 
+       
         private TipoAlerta ObtenerTipoAlerta(string tipoAlerta)
         {
             switch (tipoAlerta)
@@ -49,14 +49,11 @@ namespace BLL
                     throw new ArgumentException("Tipo de alerta no válido", nameof(tipoAlerta));
             }
         }
-
-        //funcion para generar una id aleatoria al momneto de crear la alerta
+  
         private int GenerarIdAleatorio()
         {
             return random.Next(1000000, 9999999);
         }
-
-        //esta funcion esta encargada  de recibir la lista de las alerta cea das que se almacenan en la base de datos
         public List<Alerta> ObtenerTodasLasAlertas()
         {
             try
@@ -69,7 +66,7 @@ namespace BLL
             }
         }
 
-        //
+        
         public List<Alerta> ObtenerAlertasPorTipo(TipoAlerta tipo)
         {
             try
@@ -81,6 +78,31 @@ namespace BLL
                 throw new Exception($"Error al obtener las alertas por tipo: {ex.Message}", ex);
             }
         }
+
+        public List<Alerta> ObtenerAlertasFiltradas(TipoAlerta tipoAlerta, DateTime? fechaInicio = null, DateTime? fechaFin = null,double? latMin = null, double? latMax = null,double? lonMin = null, double? lonMax = null)
+        {
+            try
+            {
+                var alertas = _alertaRepository.SeleccionarAlertas();
+
+                var alertasFiltradas = alertas.Where(a =>
+                    (tipoAlerta == null || a.Tipo.Id == tipoAlerta.Id) &&
+                    (fechaInicio == null || a.FechaHora >= fechaInicio) &&
+                    (fechaFin == null || a.FechaHora <= fechaFin) &&
+                    (latMin == null || a.Ubicacion.Latitud >= latMin) &&
+                    (latMax == null || a.Ubicacion.Latitud <= latMax) &&
+                    (lonMin == null || a.Ubicacion.Longitud >= lonMin) &&
+                    (lonMax == null || a.Ubicacion.Longitud <= lonMax)
+                ).ToList();
+
+                return alertasFiltradas;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error al filtrar las alertas: {ex.Message}", ex);
+            }
+        }
+
 
         public void EliminarAlerta(int idAlerta)
         {

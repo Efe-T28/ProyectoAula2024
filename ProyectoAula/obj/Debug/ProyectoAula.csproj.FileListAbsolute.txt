@@ -87,3 +87,27 @@ C:\Users\German Ballestero\Desktop\proyectoActualizado\ProyectoAula\obj\Debug\Pr
 C:\Users\German Ballestero\Desktop\proyectoActualizado\ProyectoAula\obj\Debug\ProyectoAula.exe
 C:\Users\German Ballestero\Desktop\proyectoActualizado\ProyectoAula\obj\Debug\ProyectoAula.pdb
 C:\Users\German Ballestero\Desktop\proyectoActualizado\ProyectoAula\obj\Debug\ProyectoAula.FormHistorial.resources
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\bin\Debug\ProyectoAula.exe.config
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\bin\Debug\ProyectoAula.exe
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\bin\Debug\ProyectoAula.pdb
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\bin\Debug\AjaxMin.dll
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\bin\Debug\BLL.dll
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\bin\Debug\ENTITY.dll
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\bin\Debug\GMap.NET.Core.dll
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\bin\Debug\Gmap.net.dll
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\bin\Debug\GMap.NET.WindowsForms.dll
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\bin\Debug\DAL.dll
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\bin\Debug\BLL.pdb
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\bin\Debug\ENTITY.pdb
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\bin\Debug\Gmap.net.pdb
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\bin\Debug\DAL.pdb
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\ProyectoAula.csproj.AssemblyReference.cache
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\ProyectoAula.FormMapa.resources
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\ProyectoAula.FormHistorial.resources
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\ProyectoAula.InicioDeSesion.resources
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\ProyectoAula.Properties.Resources.resources
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\ProyectoAula.csproj.GenerateResource.cache
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\ProyectoAula.csproj.CoreCompileInputs.cache
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\Proyecto.8308E4C6.Up2Date
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\ProyectoAula.exe
+C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\ProyectoAula.pdb
