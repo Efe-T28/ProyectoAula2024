@@ -40,3 +40,15 @@ C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ENTITY\obj\Debug\ENTITY.csproj.Cor
 C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ENTITY\obj\Debug\ENTITY.csproj.Up2Date
 C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ENTITY\obj\Debug\ENTITY.dll
 C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ENTITY\obj\Debug\ENTITY.pdb
+C:\Users\German Ballestero\Desktop\proyecto_final\ENTITY\bin\Debug\ENTITY.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\ENTITY\bin\Debug\ENTITY.pdb
+C:\Users\German Ballestero\Desktop\proyecto_final\ENTITY\bin\Debug\AjaxMin.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\ENTITY\bin\Debug\GMap.NET.Core.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\ENTITY\bin\Debug\Gmap.net.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\ENTITY\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\ENTITY\bin\Debug\Gmap.net.pdb
+C:\Users\German Ballestero\Desktop\proyecto_final\ENTITY\obj\Debug\ENTITY.csproj.AssemblyReference.cache
+C:\Users\German Ballestero\Desktop\proyecto_final\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\German Ballestero\Desktop\proyecto_final\ENTITY\obj\Debug\ENTITY.csproj.Up2Date
+C:\Users\German Ballestero\Desktop\proyecto_final\ENTITY\obj\Debug\ENTITY.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\ENTITY\obj\Debug\ENTITY.pdb

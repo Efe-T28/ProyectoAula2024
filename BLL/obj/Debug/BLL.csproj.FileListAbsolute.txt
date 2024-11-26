@@ -73,3 +73,19 @@ C:\ProyectoAula2024\ProyectoAula\ProyectoAula\BLL\obj\Debug\BLL.csproj.CoreCompi
 C:\ProyectoAula2024\ProyectoAula\ProyectoAula\BLL\obj\Debug\BLL.csproj.Up2Date
 C:\ProyectoAula2024\ProyectoAula\ProyectoAula\BLL\obj\Debug\BLL.dll
 C:\ProyectoAula2024\ProyectoAula\ProyectoAula\BLL\obj\Debug\BLL.pdb
+C:\Users\German Ballestero\Desktop\proyecto_final\BLL\bin\Debug\BLL.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\BLL\bin\Debug\BLL.pdb
+C:\Users\German Ballestero\Desktop\proyecto_final\BLL\bin\Debug\AjaxMin.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\BLL\bin\Debug\DAL.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\BLL\bin\Debug\ENTITY.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\BLL\bin\Debug\GMap.NET.Core.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\BLL\bin\Debug\Gmap.net.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\BLL\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\BLL\bin\Debug\DAL.pdb
+C:\Users\German Ballestero\Desktop\proyecto_final\BLL\bin\Debug\ENTITY.pdb
+C:\Users\German Ballestero\Desktop\proyecto_final\BLL\bin\Debug\Gmap.net.pdb
+C:\Users\German Ballestero\Desktop\proyecto_final\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\German Ballestero\Desktop\proyecto_final\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\German Ballestero\Desktop\proyecto_final\BLL\obj\Debug\BLL.csproj.Up2Date
+C:\Users\German Ballestero\Desktop\proyecto_final\BLL\obj\Debug\BLL.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\BLL\obj\Debug\BLL.pdb

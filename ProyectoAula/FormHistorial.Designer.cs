@@ -45,8 +45,8 @@
             this.lblLatitud = new System.Windows.Forms.Label();
             this.txtLongitud = new System.Windows.Forms.TextBox();
             this.txtLatitud = new System.Windows.Forms.TextBox();
-            this.gmpMapa = new GMap.NET.WindowsForms.GMapControl();
             this.btnUbicacion = new System.Windows.Forms.Button();
+            this.gmpMapa = new GMap.NET.WindowsForms.GMapControl();
             this.pnlBarraSuperior.SuspendLayout();
             this.pnlOpciones.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgAlertas)).BeginInit();
@@ -63,10 +63,9 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Control;
-            this.button2.Location = new System.Drawing.Point(188, 0);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Location = new System.Drawing.Point(125, 0);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(186, 49);
+            this.button2.Size = new System.Drawing.Size(124, 32);
             this.button2.TabIndex = 6;
             this.button2.Text = "HISTORIAL";
             this.button2.UseVisualStyleBackColor = false;
@@ -83,9 +82,8 @@
             this.btnInicio.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInicio.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnInicio.Location = new System.Drawing.Point(0, 0);
-            this.btnInicio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnInicio.Name = "btnInicio";
-            this.btnInicio.Size = new System.Drawing.Size(188, 49);
+            this.btnInicio.Size = new System.Drawing.Size(125, 32);
             this.btnInicio.TabIndex = 5;
             this.btnInicio.Text = "INICIO";
             this.btnInicio.UseVisualStyleBackColor = false;
@@ -97,10 +95,9 @@
             this.pnlBarraSuperior.Controls.Add(this.btnSalir);
             this.pnlBarraSuperior.Controls.Add(this.button2);
             this.pnlBarraSuperior.Controls.Add(this.btnInicio);
-            this.pnlBarraSuperior.Location = new System.Drawing.Point(0, -3);
-            this.pnlBarraSuperior.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pnlBarraSuperior.Location = new System.Drawing.Point(0, -2);
             this.pnlBarraSuperior.Name = "pnlBarraSuperior";
-            this.pnlBarraSuperior.Size = new System.Drawing.Size(1680, 49);
+            this.pnlBarraSuperior.Size = new System.Drawing.Size(928, 32);
             this.pnlBarraSuperior.TabIndex = 5;
             // 
             // btnSalir
@@ -111,10 +108,9 @@
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.Font = new System.Drawing.Font("Segoe UI Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.Color.Red;
-            this.btnSalir.Location = new System.Drawing.Point(1630, -5);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnSalir.Location = new System.Drawing.Point(895, -1);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(45, 46);
+            this.btnSalir.Size = new System.Drawing.Size(30, 30);
             this.btnSalir.TabIndex = 8;
             this.btnSalir.Text = "X";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -123,10 +119,9 @@
             // pnlBarraInferior
             // 
             this.pnlBarraInferior.BackColor = System.Drawing.Color.Black;
-            this.pnlBarraInferior.Location = new System.Drawing.Point(0, 954);
-            this.pnlBarraInferior.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pnlBarraInferior.Location = new System.Drawing.Point(0, 483);
             this.pnlBarraInferior.Name = "pnlBarraInferior";
-            this.pnlBarraInferior.Size = new System.Drawing.Size(1680, 51);
+            this.pnlBarraInferior.Size = new System.Drawing.Size(923, 31);
             this.pnlBarraInferior.TabIndex = 6;
             // 
             // pnlOpciones
@@ -142,10 +137,9 @@
             this.pnlOpciones.Controls.Add(this.lblLatitud);
             this.pnlOpciones.Controls.Add(this.txtLongitud);
             this.pnlOpciones.Controls.Add(this.txtLatitud);
-            this.pnlOpciones.Location = new System.Drawing.Point(0, 46);
-            this.pnlOpciones.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pnlOpciones.Location = new System.Drawing.Point(0, 30);
             this.pnlOpciones.Name = "pnlOpciones";
-            this.pnlOpciones.Size = new System.Drawing.Size(771, 918);
+            this.pnlOpciones.Size = new System.Drawing.Size(514, 470);
             this.pnlOpciones.TabIndex = 8;
             // 
             // cmbTipoAlerta
@@ -157,10 +151,9 @@
             "Accidente",
             "Robo",
             "Actividad Sospechosa"});
-            this.cmbTipoAlerta.Location = new System.Drawing.Point(27, 374);
-            this.cmbTipoAlerta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cmbTipoAlerta.Location = new System.Drawing.Point(23, 190);
             this.cmbTipoAlerta.Name = "cmbTipoAlerta";
-            this.cmbTipoAlerta.Size = new System.Drawing.Size(318, 39);
+            this.cmbTipoAlerta.Size = new System.Drawing.Size(213, 28);
             this.cmbTipoAlerta.TabIndex = 6;
             this.cmbTipoAlerta.Text = "Tipo Alerta...";
             // 
@@ -172,10 +165,9 @@
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnEliminar.Location = new System.Drawing.Point(564, 831);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnEliminar.Location = new System.Drawing.Point(372, 414);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(112, 35);
+            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 12;
             this.btnEliminar.Text = "ELIMINAR";
             this.btnEliminar.UseVisualStyleBackColor = false;
@@ -185,11 +177,10 @@
             // 
             this.dtgAlertas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dtgAlertas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgAlertas.Location = new System.Drawing.Point(81, 474);
-            this.dtgAlertas.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dtgAlertas.Location = new System.Drawing.Point(50, 233);
             this.dtgAlertas.Name = "dtgAlertas";
             this.dtgAlertas.RowHeadersWidth = 62;
-            this.dtgAlertas.Size = new System.Drawing.Size(596, 348);
+            this.dtgAlertas.Size = new System.Drawing.Size(397, 164);
             this.dtgAlertas.TabIndex = 11;
             this.dtgAlertas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgAlertas_CellContentClick);
             // 
@@ -197,10 +188,9 @@
             // 
             this.PNLsEPARACION.BackColor = System.Drawing.Color.White;
             this.PNLsEPARACION.ForeColor = System.Drawing.Color.White;
-            this.PNLsEPARACION.Location = new System.Drawing.Point(20, 234);
-            this.PNLsEPARACION.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.PNLsEPARACION.Location = new System.Drawing.Point(12, 123);
             this.PNLsEPARACION.Name = "PNLsEPARACION";
-            this.PNLsEPARACION.Size = new System.Drawing.Size(718, 2);
+            this.PNLsEPARACION.Size = new System.Drawing.Size(479, 1);
             this.PNLsEPARACION.TabIndex = 10;
             // 
             // label1
@@ -210,10 +200,9 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(423, 191);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(278, 103);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 13);
+            this.label1.Size = new System.Drawing.Size(83, 7);
             this.label1.TabIndex = 9;
             this.label1.Text = "A L E R T    S Y S T E M";
             // 
@@ -224,10 +213,9 @@
             this.lblNombreApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblNombreApp.Font = new System.Drawing.Font("Mongolian Baiti", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombreApp.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lblNombreApp.Location = new System.Drawing.Point(224, 140);
-            this.lblNombreApp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNombreApp.Location = new System.Drawing.Point(145, 70);
             this.lblNombreApp.Name = "lblNombreApp";
-            this.lblNombreApp.Size = new System.Drawing.Size(325, 59);
+            this.lblNombreApp.Size = new System.Drawing.Size(222, 40);
             this.lblNombreApp.TabIndex = 7;
             this.lblNombreApp.Text = "Wayfinder X";
             // 
@@ -238,10 +226,9 @@
             this.lblW.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblW.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblW.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lblW.Location = new System.Drawing.Point(298, 37);
-            this.lblW.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblW.Location = new System.Drawing.Point(195, 3);
             this.lblW.Name = "lblW";
-            this.lblW.Size = new System.Drawing.Size(186, 108);
+            this.lblW.Size = new System.Drawing.Size(126, 73);
             this.lblW.TabIndex = 8;
             this.lblW.Text = "Wx";
             // 
@@ -252,10 +239,9 @@
             this.lblLongitud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblLongitud.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLongitud.ForeColor = System.Drawing.Color.White;
-            this.lblLongitud.Location = new System.Drawing.Point(404, 275);
-            this.lblLongitud.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblLongitud.Location = new System.Drawing.Point(274, 133);
             this.lblLongitud.Name = "lblLongitud";
-            this.lblLongitud.Size = new System.Drawing.Size(130, 31);
+            this.lblLongitud.Size = new System.Drawing.Size(87, 20);
             this.lblLongitud.TabIndex = 5;
             this.lblLongitud.Text = "LONGITUD";
             // 
@@ -266,28 +252,38 @@
             this.lblLatitud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblLatitud.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLatitud.ForeColor = System.Drawing.Color.White;
-            this.lblLatitud.Location = new System.Drawing.Point(27, 275);
-            this.lblLatitud.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblLatitud.Location = new System.Drawing.Point(23, 133);
             this.lblLatitud.Name = "lblLatitud";
-            this.lblLatitud.Size = new System.Drawing.Size(108, 31);
+            this.lblLatitud.Size = new System.Drawing.Size(72, 20);
             this.lblLatitud.TabIndex = 4;
             this.lblLatitud.Text = "LATITUD";
             // 
             // txtLongitud
             // 
-            this.txtLongitud.Location = new System.Drawing.Point(404, 306);
-            this.txtLongitud.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtLongitud.Location = new System.Drawing.Point(274, 153);
             this.txtLongitud.Name = "txtLongitud";
-            this.txtLongitud.Size = new System.Drawing.Size(318, 26);
+            this.txtLongitud.Size = new System.Drawing.Size(213, 20);
             this.txtLongitud.TabIndex = 2;
             // 
             // txtLatitud
             // 
-            this.txtLatitud.Location = new System.Drawing.Point(27, 306);
-            this.txtLatitud.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtLatitud.Location = new System.Drawing.Point(23, 153);
             this.txtLatitud.Name = "txtLatitud";
-            this.txtLatitud.Size = new System.Drawing.Size(318, 26);
+            this.txtLatitud.Size = new System.Drawing.Size(213, 20);
             this.txtLatitud.TabIndex = 1;
+            // 
+            // btnUbicacion
+            // 
+            this.btnUbicacion.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnUbicacion.FlatAppearance.BorderSize = 3;
+            this.btnUbicacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUbicacion.Image = global::ProyectoAula.Properties.Resources.ubicaionMia;
+            this.btnUbicacion.Location = new System.Drawing.Point(873, 36);
+            this.btnUbicacion.Name = "btnUbicacion";
+            this.btnUbicacion.Size = new System.Drawing.Size(39, 37);
+            this.btnUbicacion.TabIndex = 10;
+            this.btnUbicacion.UseVisualStyleBackColor = true;
+            this.btnUbicacion.Click += new System.EventHandler(this.btnUbicacion_Click);
             // 
             // gmpMapa
             // 
@@ -298,8 +294,7 @@
             this.gmpMapa.GrayScaleMode = false;
             this.gmpMapa.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
             this.gmpMapa.LevelsKeepInMemmory = 5;
-            this.gmpMapa.Location = new System.Drawing.Point(766, 46);
-            this.gmpMapa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gmpMapa.Location = new System.Drawing.Point(511, 30);
             this.gmpMapa.MarkersEnabled = true;
             this.gmpMapa.MaxZoom = 2;
             this.gmpMapa.MinZoom = 2;
@@ -313,38 +308,23 @@
             this.gmpMapa.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
             this.gmpMapa.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
             this.gmpMapa.ShowTileGridLines = false;
-            this.gmpMapa.Size = new System.Drawing.Size(914, 914);
+            this.gmpMapa.Size = new System.Drawing.Size(412, 467);
             this.gmpMapa.TabIndex = 9;
             this.gmpMapa.Zoom = 0D;
             // 
-            // btnUbicacion
-            // 
-            this.btnUbicacion.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnUbicacion.FlatAppearance.BorderSize = 3;
-            this.btnUbicacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUbicacion.Image = global::ProyectoAula.Properties.Resources.ubicaionMia;
-            this.btnUbicacion.Location = new System.Drawing.Point(1600, 55);
-            this.btnUbicacion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnUbicacion.Name = "btnUbicacion";
-            this.btnUbicacion.Size = new System.Drawing.Size(58, 57);
-            this.btnUbicacion.TabIndex = 10;
-            this.btnUbicacion.UseVisualStyleBackColor = true;
-            this.btnUbicacion.Click += new System.EventHandler(this.btnUbicacion_Click);
-            // 
             // FormHistorial
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoAula.Properties.Resources.FondoPrincipal;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1677, 1002);
+            this.ClientSize = new System.Drawing.Size(924, 512);
             this.Controls.Add(this.pnlBarraInferior);
             this.Controls.Add(this.btnUbicacion);
             this.Controls.Add(this.pnlBarraSuperior);
             this.Controls.Add(this.gmpMapa);
             this.Controls.Add(this.pnlOpciones);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MinimizeBox = false;
             this.Name = "FormHistorial";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -376,7 +356,7 @@
         private System.Windows.Forms.DataGridView dtgAlertas;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.ComboBox cmbTipoAlerta;
-        private GMap.NET.WindowsForms.GMapControl gmpMapa;
         private System.Windows.Forms.Button btnUbicacion;
+        private GMap.NET.WindowsForms.GMapControl gmpMapa;
     }
 }

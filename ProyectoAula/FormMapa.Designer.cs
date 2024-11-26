@@ -73,7 +73,7 @@
             this.gMapControl1.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
             this.gMapControl1.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
             this.gMapControl1.ShowTileGridLines = false;
-            this.gMapControl1.Size = new System.Drawing.Size(877, 594);
+            this.gMapControl1.Size = new System.Drawing.Size(689, 458);
             this.gMapControl1.TabIndex = 9;
             this.gMapControl1.Zoom = 0D;
             this.gMapControl1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.gMapControl1_MouseDoubleClick);
@@ -91,9 +91,9 @@
             this.pnlOpciones.Controls.Add(this.txtLongitud);
             this.pnlOpciones.Controls.Add(this.txtLatitud);
             this.pnlOpciones.Controls.Add(this.btnCrearAlerta);
-            this.pnlOpciones.Location = new System.Drawing.Point(868, 27);
+            this.pnlOpciones.Location = new System.Drawing.Point(683, 28);
             this.pnlOpciones.Name = "pnlOpciones";
-            this.pnlOpciones.Size = new System.Drawing.Size(243, 597);
+            this.pnlOpciones.Size = new System.Drawing.Size(246, 457);
             this.pnlOpciones.TabIndex = 1;
             // 
             // panel1
@@ -109,7 +109,7 @@
             // 
             this.PNLsEPARACION.BackColor = System.Drawing.Color.White;
             this.PNLsEPARACION.ForeColor = System.Drawing.Color.White;
-            this.PNLsEPARACION.Location = new System.Drawing.Point(17, 143);
+            this.PNLsEPARACION.Location = new System.Drawing.Point(17, 144);
             this.PNLsEPARACION.Name = "PNLsEPARACION";
             this.PNLsEPARACION.Size = new System.Drawing.Size(209, 1);
             this.PNLsEPARACION.TabIndex = 10;
@@ -121,7 +121,7 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(143, 116);
+            this.label1.Location = new System.Drawing.Point(142, 121);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 7);
             this.label1.TabIndex = 9;
@@ -134,7 +134,7 @@
             this.lblNombreApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblNombreApp.Font = new System.Drawing.Font("Mongolian Baiti", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombreApp.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lblNombreApp.Location = new System.Drawing.Point(10, 83);
+            this.lblNombreApp.Location = new System.Drawing.Point(9, 88);
             this.lblNombreApp.Name = "lblNombreApp";
             this.lblNombreApp.Size = new System.Drawing.Size(222, 40);
             this.lblNombreApp.TabIndex = 7;
@@ -147,7 +147,7 @@
             this.lblW.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblW.Font = new System.Drawing.Font("Script MT Bold", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblW.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lblW.Location = new System.Drawing.Point(60, 16);
+            this.lblW.Location = new System.Drawing.Point(59, 21);
             this.lblW.Name = "lblW";
             this.lblW.Size = new System.Drawing.Size(130, 77);
             this.lblW.TabIndex = 8;
@@ -158,7 +158,7 @@
             this.cbxTipoAlerta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxTipoAlerta.ForeColor = System.Drawing.Color.Black;
             this.cbxTipoAlerta.FormattingEnabled = true;
-            this.cbxTipoAlerta.Location = new System.Drawing.Point(13, 335);
+            this.cbxTipoAlerta.Location = new System.Drawing.Point(13, 305);
             this.cbxTipoAlerta.Name = "cbxTipoAlerta";
             this.cbxTipoAlerta.Size = new System.Drawing.Size(213, 28);
             this.cbxTipoAlerta.TabIndex = 6;
@@ -171,7 +171,7 @@
             this.lblLongitud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblLongitud.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLongitud.ForeColor = System.Drawing.Color.White;
-            this.lblLongitud.Location = new System.Drawing.Point(13, 265);
+            this.lblLongitud.Location = new System.Drawing.Point(12, 238);
             this.lblLongitud.Name = "lblLongitud";
             this.lblLongitud.Size = new System.Drawing.Size(87, 20);
             this.lblLongitud.TabIndex = 5;
@@ -184,7 +184,7 @@
             this.lblLatitud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblLatitud.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLatitud.ForeColor = System.Drawing.Color.White;
-            this.lblLatitud.Location = new System.Drawing.Point(13, 205);
+            this.lblLatitud.Location = new System.Drawing.Point(13, 176);
             this.lblLatitud.Name = "lblLatitud";
             this.lblLatitud.Size = new System.Drawing.Size(72, 20);
             this.lblLatitud.TabIndex = 4;
@@ -192,14 +192,14 @@
             // 
             // txtLongitud
             // 
-            this.txtLongitud.Location = new System.Drawing.Point(13, 285);
+            this.txtLongitud.Location = new System.Drawing.Point(12, 258);
             this.txtLongitud.Name = "txtLongitud";
             this.txtLongitud.Size = new System.Drawing.Size(213, 20);
             this.txtLongitud.TabIndex = 2;
             // 
             // txtLatitud
             // 
-            this.txtLatitud.Location = new System.Drawing.Point(13, 225);
+            this.txtLatitud.Location = new System.Drawing.Point(13, 196);
             this.txtLatitud.Name = "txtLatitud";
             this.txtLatitud.Size = new System.Drawing.Size(213, 20);
             this.txtLatitud.TabIndex = 1;
@@ -212,9 +212,9 @@
             this.btnCrearAlerta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCrearAlerta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCrearAlerta.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCrearAlerta.Location = new System.Drawing.Point(-1, 417);
+            this.btnCrearAlerta.Location = new System.Drawing.Point(0, 379);
             this.btnCrearAlerta.Name = "btnCrearAlerta";
-            this.btnCrearAlerta.Size = new System.Drawing.Size(240, 45);
+            this.btnCrearAlerta.Size = new System.Drawing.Size(243, 45);
             this.btnCrearAlerta.TabIndex = 0;
             this.btnCrearAlerta.Text = "CREAR ALERTA";
             this.btnCrearAlerta.UseVisualStyleBackColor = false;
@@ -228,7 +228,7 @@
             this.pnlBarraSuperior.Controls.Add(this.btnInicio);
             this.pnlBarraSuperior.Location = new System.Drawing.Point(-9, 0);
             this.pnlBarraSuperior.Name = "pnlBarraSuperior";
-            this.pnlBarraSuperior.Size = new System.Drawing.Size(1120, 30);
+            this.pnlBarraSuperior.Size = new System.Drawing.Size(938, 30);
             this.pnlBarraSuperior.TabIndex = 3;
             // 
             // btnSalir
@@ -239,7 +239,7 @@
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.Font = new System.Drawing.Font("Segoe UI Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.Color.Red;
-            this.btnSalir.Location = new System.Drawing.Point(1087, -3);
+            this.btnSalir.Location = new System.Drawing.Point(902, -2);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(30, 30);
             this.btnSalir.TabIndex = 8;
@@ -287,9 +287,9 @@
             // pnlBarraInferior
             // 
             this.pnlBarraInferior.BackColor = System.Drawing.Color.Black;
-            this.pnlBarraInferior.Location = new System.Drawing.Point(-6, 618);
+            this.pnlBarraInferior.Location = new System.Drawing.Point(-3, 482);
             this.pnlBarraInferior.Name = "pnlBarraInferior";
-            this.pnlBarraInferior.Size = new System.Drawing.Size(1120, 33);
+            this.pnlBarraInferior.Size = new System.Drawing.Size(932, 33);
             this.pnlBarraInferior.TabIndex = 4;
             // 
             // FormMapa
@@ -298,7 +298,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoAula.Properties.Resources.FondoPrincipal;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1108, 650);
+            this.ClientSize = new System.Drawing.Size(924, 512);
             this.Controls.Add(this.pnlBarraInferior);
             this.Controls.Add(this.pnlBarraSuperior);
             this.Controls.Add(this.gMapControl1);

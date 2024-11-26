@@ -111,3 +111,27 @@ C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\ProyectoAul
 C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\Proyecto.8308E4C6.Up2Date
 C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\ProyectoAula.exe
 C:\ProyectoAula2024\ProyectoAula\ProyectoAula\ProyectoAula\obj\Debug\ProyectoAula.pdb
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\bin\Debug\ProyectoAula.exe.config
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\bin\Debug\ProyectoAula.exe
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\bin\Debug\ProyectoAula.pdb
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\bin\Debug\AjaxMin.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\bin\Debug\BLL.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\bin\Debug\ENTITY.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\bin\Debug\GMap.NET.Core.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\bin\Debug\Gmap.net.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\bin\Debug\DAL.dll
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\bin\Debug\BLL.pdb
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\bin\Debug\ENTITY.pdb
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\bin\Debug\Gmap.net.pdb
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\bin\Debug\DAL.pdb
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\obj\Debug\ProyectoAula.csproj.AssemblyReference.cache
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\obj\Debug\ProyectoAula.FormMapa.resources
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\obj\Debug\ProyectoAula.FormHistorial.resources
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\obj\Debug\ProyectoAula.InicioDeSesion.resources
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\obj\Debug\ProyectoAula.Properties.Resources.resources
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\obj\Debug\ProyectoAula.csproj.GenerateResource.cache
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\obj\Debug\ProyectoAula.csproj.CoreCompileInputs.cache
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\obj\Debug\Proyecto.8308E4C6.Up2Date
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\obj\Debug\ProyectoAula.exe
+C:\Users\German Ballestero\Desktop\proyecto_final\ProyectoAula\obj\Debug\ProyectoAula.pdb
