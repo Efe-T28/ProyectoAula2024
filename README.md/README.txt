@@ -13,7 +13,7 @@ Este proyecto incluye un sistema para gestionar alarmas en **Windows Forms**, ut
 - **Nota**: Si tienes problemas para visualizar correctamente la aplicación al ejecutarla, verifica la configuración de tu pantalla:
   1. Ve a **Configuración** en tu PC.
   2. Haz clic en **Sistema** y selecciona la opción **Pantalla**.
-  3. En el apartado de **Escala y diseño**, ajusta la escala al **100%**.
+  3. En el apartado de **Escala y diseño**, ajusta la escala al **125%**.
 
 ## Tecnologías utilizadas
 - **C#**: Windows Forms para el frontend.
